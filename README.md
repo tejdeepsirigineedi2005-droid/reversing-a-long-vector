@@ -3,6 +3,7 @@ module top_module(
     input [7:0] in,
     output [7:0] out
 );
+
     assign out[0]=in[7];
     assign out[1]=in[6];
     assign out[2]=in[5];
